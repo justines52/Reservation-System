@@ -1,0 +1,93 @@
+/* Fonts */
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+    font-family: "Krona One";
+    src: url("../fonts/Krona_One/KronaOne-Regular.ttf");
+}
+
+/* Base Styles */
+.root {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+}
+
+.form-title {
+    -fx-font-family: "Krona One";
+    -fx-font-size: 22px;
+    -fx-text-fill: #46237A;
+    -fx-padding: 0 0 15px 0;
+}
+
+.field-label {
+    -fx-font-family: "DM Sans";
+    -fx-font-size: 14px;
+    -fx-text-fill: #46237A;
+    -fx-font-weight: bold;
+}
+
+.form-field {
+    -fx-font-family: "DM Sans";
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 8px;
+    -fx-pref-height: 35px;
+}
+
+.time-spinner {
+    -fx-font-family: "DM Sans";
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-pref-height: 35px;
+}
+
+.time-separator {
+    -fx-font-family: "DM Sans";
+    -fx-font-size: 14px;
+    -fx-padding: 0 5px 0 5px;
+}
+
+.add-button {
+    -fx-font-family: "DM Sans";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-color: #46237A;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-pref-height: 40px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 0, 2, 0, 0);
+}
+
+.add-button:hover {
+    -fx-background-color: #3a1d66;
+}
+
+.add-button:pressed {
+    -fx-background-color: #2e1852;
+}
+
+/* Date Picker styling */
+.date-picker {
+    -fx-font-family: "DM Sans";
+    -fx-font-size: 14px;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #46237A;
+    -fx-background-radius: 0 3px 3px 0;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #3a1d66;
+}

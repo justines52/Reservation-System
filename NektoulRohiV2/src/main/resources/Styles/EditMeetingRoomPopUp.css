@@ -1,0 +1,28 @@
+#Titre_Edit_Meeting_Room{
+    -fx-text-fill: #46237A ;
+    -fx-font-size: 18px;
+}
+.Text_Area{
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-padding: 10px;
+}
+.Edit_Button {
+    -fx-font-family:"DM Sans";
+    -fx-font-size: 18px;
+    -fx-background-radius: 20px;  /* Bordures arrondies */
+    -fx-border-radius: 20px;      /* Bordures arrondies */
+    -fx-padding: 10px 20px;       /* Espacement interne */
+    -fx-background-color:  #46237A; /* Couleur de fond */
+    -fx-text-fill: white;         /* Couleur du texte */
+    -fx-border-color: #46237A;    /* Couleur de la bordure */
+    -fx-border-width: 2px;        /* Épaisseur de la bordure */
+}
+.root {
+    -fx-background-radius: 15px; /* Arrondi du fond */
+    -fx-border-radius: 15px; /* Arrondi de la bordure */
+    -fx-border-color: #cccccc; /* Couleur de la bordure */
+    -fx-border-width: 2px; /* Épaisseur de la bordure */
+    -fx-background-color: white; /* Assure que l’arrière-plan est visible */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10px,0, 0, 5px);
+}

@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "DM Sans Italic";
+    src: url("../fonts/DM_Sans/DMSans-Italic-VariableFont_opsz,wght.ttf");
+}
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+    font-family: "Krona One";
+    src: url("../fonts/Krona_One/KronaOne-Regular.ttf");
+}
+.root {
+    -fx-background-color:#DAD3E4;
+
+}
+.Reserve_Pro {
+    -fx-font-family:"Krona One";
+    -fx-font-size: 22px;
+}
+.Meeting_Rooms {
+    -fx-font-family:"DM Sans";
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+.Number_Meeting_Rooms {
+    -fx-font-family:"DM Sans";
+    -fx-text-fill:#46237A;
+    -fx-font-weight:bold;
+
+
+}
+.Button {
+    -fx-font-family:"DM Sans";
+    -fx-font-weight:bold;
+    -fx-font-size:15px;
+
+}
+.Button:hover {
+    -fx-text-fill:#46237A;
+}
+.Button:hover FontIcon {
+    -fx-icon-color: #46237A; /* Change la couleur de l'icône au survol */
+}
+.text_area {
+    -fx-background-color:transparent;
+    -fx-border-color:transparent;
+}
+#Add_Vbox {
+    -fx-background-color:#ffffff;
+    -fx-background-radius: 15px; /* Arrondi du fond */
+    -fx-border-radius: 15px; /* Arrondi de la bordure */
+    -fx-border-color: #cccccc; /* Couleur de la bordure */
+    -fx-border-width: 2px; /* Épaisseur de la bordure */
+}
+.vbox-inside-button{
+    -fx-max-width: Infinity;
+}
+#btnAddRoom{
+    -fx-max-height:Infinity;
+    -fx-max-width: Infinity;
+    -fx-background-color:#ffffff;
+    -fx-background-radius: 15px; /* Arrondi du fond */
+    -fx-border-radius: 15px; /* Arrondi de la bordure */
+    -fx-border-color: #cccccc; /* Couleur de la bordure */
+    -fx-border-width: 2px; /* Épaisseur de la bordure */
+
+}
+/*style du bouton Edit*/
+.edit-button {
+    -fx-font-family:"DM Sans";
+    -fx-background-color:#46A961;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px; /* Coins légèrement arrondis */
+    -fx-padding: 10px 20px;
+}
+
+/* Style du bouton Delete */
+.delete-button {
+    -fx-font-family:"DM Sans";
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 20px;
+}
+
+.Card{
+    -fx-background-color: #C1B2D2;
+    -fx-background-radius: 15px;
+}
+.title-label {
+    -fx-text-fill: #46237A; /* Applique la couleur */
+    -fx-font-size: 22px; /* Taille du texte */
+    -fx-font-weight: bold; /* Texte en gras */
+}
+.RoomNumber {
+    -fx-text-fill: #252525; /* Applique la couleur */
+    -fx-font-size: 30px; /* Taille du texte */
+    -fx-font-weight: bold; /* Texte en gras */
+}
+#MeetingRoomsBtn{
+    -fx-text-fill: #46237A;
+    -fx-icon-color: #46237A;
+}
+#MeetingRoomsBtn FontIcon {
+    -fx-icon-color: #46237A; /* Change la couleur de l'icône au survol */
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "DM Sans Italic";
+    src: url("../fonts/DM_Sans/DMSans-Italic-VariableFont_opsz,wght.ttf");
+}
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+    font-family: "Krona One";
+    src: url("../fonts/Krona_One/KronaOne-Regular.ttf");
+}
+.Reservation_Done {
+    -fx-text-fill: #46237A ;
+    -fx-font-family:"DM Sans";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+
+}
+#code_label {
+    -fx-font-family:"DM Sans";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+
+
+}
