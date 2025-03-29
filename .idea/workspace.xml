@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="547910fe-d96d-4906-9649-5a21d8957b2e" name="Changes" comment="Initial commit" />
+    <list default="true" id="547910fe-d96d-4906-9649-5a21d8957b2e" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NektoulRohiV2/src/main/java/reservationsystem/controllers/EditReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NektoulRohiV2/src/main/java/reservationsystem/controllers/EditReservationController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +44,7 @@
     "Application.MainApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/inesb/Downloads/NektoulRohiV2-20250327T091652Z-001",
     "list.type.of.created.stylesheet": "CSS",
@@ -91,7 +94,7 @@
       <workItem from="1743067111345" duration="490000" />
       <workItem from="1743078804366" duration="9626000" />
       <workItem from="1743088868470" duration="33758000" />
-      <workItem from="1743170714295" duration="47082000" />
+      <workItem from="1743170714295" duration="48097000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

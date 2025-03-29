@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
+import java.util.List;
 
 public class EditReservationController {
     @FXML private Label titleLabel;
@@ -70,11 +71,37 @@ public class EditReservationController {
     //methode pour edit la reservation a mettre on action dans le fxml
     @FXML
     private void handleEdit(ActionEvent event) {
+
+        LocalDate date = datePicker.getValue();
+        LocalTime time = LocalTime.parse(timeField.getText().trim(), DateTimeFormatter.ofPattern("HH:mm"));
+        int duration = Integer.parseInt(durationField.getText().trim());
+        LocalDateTime newStart = LocalDateTime.of(date, time);
+        LocalDateTime newEnd = newStart.plusMinutes(duration);
+
         try { // veridie si les inputs sont valide si non on annule l'edit
             if (!validateInputs()) {
                 return;
             }
+
             String roomCode = roomField.getText().trim().toUpperCase();
+
+            // verifie si la salle est deja reserve
+            List<Reservation> existingReservations = reservationDB.getReservationsForRoom(roomCode);
+            for (Reservation existing : existingReservations) {
+                LocalDateTime existingStart = existing.getDateHeureRes();
+                LocalDateTime existingEnd = existingStart.plusMinutes(existing.getDuree());
+
+                if (newStart.isBefore(existingEnd) && newEnd.isAfter(existingStart)) {
+                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+                    String conflictTime = existingStart.format(formatter) + " - " + existingEnd.format(formatter);
+                    showAlert("reservation already booked",
+                            "This room is already booked during the requested time:\n" +
+                                    "Conflict: " + conflictTime + "\n" +
+                                    "Booked by: " + existing.getNomEmployee());
+                    return;
+                }
+            }
+
 
             // verifie si la salle existe,sinon l'ajoute
             if (!reservationDB.roomExists(roomCode)) {
