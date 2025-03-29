@@ -115,6 +115,7 @@
     -fx-border-radius: 5px;
     -fx-padding: 5px 10px;
     -fx-cursor: hand;
+    -fx-alignment: center-right;
 }
 
 .delete-button {
@@ -124,12 +125,21 @@
     -fx-border-radius: 5px;
     -fx-padding: 5px 10px;
     -fx-cursor: hand;
+    -fx-alignment: center-right;
 }
 
 .edit-button:hover {
     -fx-background-color: #45a049;
 }
+.hbox-button {
+    -fx-alignment: center;
+}
 
 .delete-button:hover {
     -fx-background-color: #d32f2f;
+}
+.table-row-cell {
+    -fx-border-color: transparent;
+    -fx-alignment:center;
+
 }

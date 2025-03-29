@@ -73,7 +73,7 @@
                   <Insets left="250.0" />
                </HBox.margin>
                <children>
-                  <Label fx:id="roomCountLabel" prefHeight="29.0" prefWidth="137.0" styleClass="Number_Meeting_Rooms" text="Number of Reservations">
+                  <Label fx:id="roomCountLabel" alignment="CENTER_RIGHT" prefHeight="29.0" prefWidth="137.0" styleClass="Number_Meeting_Rooms" text="Number of Reservations">
                      <font>
                         <Font name="Sans Serif Collection" size="12.0" />
                      </font>
@@ -81,7 +81,7 @@
                         <Insets top="10.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField fx:id="roomCountField" editable="false" prefHeight="38.0" prefWidth="142.0" styleClass="text_area">
+                  <TextField fx:id="roomCountField" alignment="CENTER" editable="false" prefHeight="38.0" prefWidth="142.0" styleClass="text_area">
                      <font>
                         <Font name="SansSerif Bold" size="23.0" />
                      </font>

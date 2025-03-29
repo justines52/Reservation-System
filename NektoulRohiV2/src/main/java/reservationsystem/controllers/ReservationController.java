@@ -62,6 +62,7 @@ public class ReservationController {
             {
                 editButton.getStyleClass().add("edit-button");
                 deleteButton.getStyleClass().add("delete-button");
+                buttons.getStyleClass().add("hbox-button");
                 // action pour editer une reservation
                 editButton.setOnAction(event -> {
                     Reservation reservation = getTableView().getItems().get(getIndex());

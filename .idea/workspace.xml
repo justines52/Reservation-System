@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="547910fe-d96d-4906-9649-5a21d8957b2e" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NektoulRohiV2/src/main/java/reservationsystem/controllers/EditReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NektoulRohiV2/src/main/java/reservationsystem/controllers/EditReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NektoulRohiV2/src/main/java/reservationsystem/controllers/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NektoulRohiV2/src/main/java/reservationsystem/controllers/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NektoulRohiV2/src/main/resources/Styles/Reservation.css" beforeDir="false" afterPath="$PROJECT_DIR$/NektoulRohiV2/src/main/resources/Styles/Reservation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NektoulRohiV2/src/main/resources/fxml/MeetingReservation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/NektoulRohiV2/src/main/resources/fxml/MeetingReservation.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <workItem from="1743067111345" duration="490000" />
       <workItem from="1743078804366" duration="9626000" />
       <workItem from="1743088868470" duration="33758000" />
-      <workItem from="1743170714295" duration="48097000" />
+      <workItem from="1743170714295" duration="52634000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
